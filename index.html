@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SenzMate</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Header -->
+<section class="section-1">
+    <header>
+        <div class="left-header">
+            <div class="logo"></div>
+            <nav>
+              <a href="#">Platform</a>
+              <a href="#">AIoT</a>
+              <a href="#">Resources</a>
+              <a href="#">Company</a>
+            </nav>
+        </div>
+      <button class="nav-btn">AI Bootcamp</button>
+    </header>
+    <section class="hero-section">
+         <h1>AIoT Intelligence for the Future</h1>
+         <p>Empowering businesses through comprehensive AI and IoT solutions that include hardware, firmware, software and machine</p>
+          <div class="top-hero">
+              <button class="discover_btn">Discover our products</button>
+              <button class="contact_btn"><span>Contact us</span></button>
+          </div>
+          <div class="slider">
+              <h2>PROUD TO BRING INNOVATION TO COMPANIES WORLDWIDE</h2>
+              <div class="brand-carousel owl-carousel">
+                  <div class="single-logo"><img alt="" src="img/brand-1.png"></div>
+                  <div class="single-logo"><img alt="" src="img/brand-2.png"></div>
+                  <div class="single-logo"><img alt="" src="img/brand-3.png"></div>
+                  <div class="single-logo"><img alt="" src="img/brand-4.png"></div>
+                  <div class="single-logo"><img alt="" src="img/brand-5.png"></div>
+                  <div class="single-logo"><img alt="" src="img/brand-6.png"></div>
+              </div>
+          </div>
+          <div class="container">
+            <div class="left-section">
+                <div class="release-tag">Upcoming Release</div>
+                <h1 class="title">Device Pluse.AI</h1>
+                <p class="description">Elevate your IoT device diagnosis automation with our AI-Powered Assistant.</p>
+            </div>
+            <div class="right-section">
+                <img src="/img/iot_bg.png" alt="AIoT" class="aiot-image">
+            </div>
+        </div>
+    </section>
+</section>
+<section class="core-technologies">
+    <h2>AloT is empowered by</h2>
+    <h1>Our Core Technologies</h1>
+    <div class="cards-container">
+        <div class="card">
+            <img src="./img/iot_icon.png" alt="IoT Devices & Platforms">
+            <h3>IoT Devices & Platforms</h3>
+            <p>Builds end to end IoT sensor based hardware solutions in different verticals. Dedicated to offer cost-effective and efficient sustainable ...</p>
+            <a href="#">Read More →</a>
+        </div>
+        <div class="card">
+            <img src="./img/AI_icon.png" alt="Artificial Intelligence & ML">
+            <h3>Artificial Intelligence & ML</h3>
+            <p>Builds end to end IoT sensor based hardware solutions in different verticals. Dedicated to offer cost-effective and efficient sustainable ...</p>
+            <a href="#">Read More →</a>
+        </div>
+        <div class="card">
+            <img src="./img/endtoend_icon.png" alt="End-to-End IoT Solutions">
+            <h3>End-to-End IoT Solutions</h3>
+            <p>Builds end to end IoT sensor based hardware solutions in different verticals. Dedicated to offer cost-effective and efficient sustainable ...</p>
+            <a href="#">Read More →</a>
+        </div>
+        <div class="card">
+            <img src="./img/blockchain_icon.png" alt="Blockchain Integration">
+            <h3>Blockchain Integration</h3>
+            <p>Builds end to end IoT sensor based hardware solutions in different verticals. Dedicated to offer cost-effective and efficient sustainable ...</p>
+            <a href="#">Read More →</a>
+        </div>
+    </div>
+</section>
+<section class="platform-section">
+  <div class="container-up">
+      <!-- Top Header -->
+        <div>
+          <h1>Senzmatica AIoT Platform</h1>
+          <p>SenzMatica is a robust AIoT platform that will be capable of integration with<br> almost any AI & IoT device and develop new products more quickly.</p>
+       </div>
+       <!-- middle section should be 2 columns -->
+        <div class="contain">
+          <div class="text-content">
+            <div class="feature-content">
+                <h2 id="feature-title">Device Management</h2>
+                <p id="feature-description">Integrate seamlessly with AI and IoT devices to accelerate product development. This module features a step-by-step device onboarding process and powerful modules, redefining efficiency and control in the AIoT landscape while providing unparalleled flexibility and ease of use.</p>
+            </div>
+            <div class="arrows">
+                <button id="prev" onclick="changeContent(-1)">&#8592;</button>
+                <button id="next" onclick="changeContent(1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="image-content">
+            <img id="feature-image" src="/img/Display.png" alt="Feature Image">
+          </div>
+        </div>
+       
+        <!-- bottom section only button  -->
+        <button class="explore-button">Explore Platform →</button>
+  </div>
+</section>
+<section class="services-section">
+  <h2>Our Services</h2>
+  <h3>What We Do?</h3>
+  <div class="image-container">
+      <div class="backImage">
+        <div class="character" id="character1">
+            <img src="character1.png" alt="Character 1 Image Contain Image">
+            <div class="popup" id="popup1">
+                <h4>Partnership Programs</h4>
+                <p>Join our partnership programs to leverage the power of IoT and AI, driving mutual success through collaborative projects and shared expertise.</p>
+            </div>
+        </div>
+        <div class="character" id="character2">
+            <img src="character2.png" alt="Character 2 Image Contain Image">
+            <div class="popup" id="popup2">
+                <h4>Consulting Services</h4>
+                <p>Our consulting services provide expert guidance to help you navigate the complexities of IoT and AI, ensuring successful implementation and integration.</p>
+            </div>
+        </div>
+        <div class="character" id="character3">
+            <img src="character3.png" alt="Character 3 Image Contain Image">
+            <div class="popup" id="popup3">
+                <h4>Custom Solutions</h4>
+                <p>We offer custom solutions tailored to your specific needs, combining the latest in IoT and AI technology to drive innovation and efficiency.</p>
+            </div>
+        </div>
+        <div class="character" id="character4">
+            <img src="character4.png" alt="Character 4  Image Contain Image">
+            <div class="popup" id="popup4">
+                <h4>Support & Maintenance</h4>
+                <p>Our support and maintenance services ensure your IoT and AI systems remain operational and up-to-date, providing peace of mind and reliability.</p>
+            </div>
+        </div>
+      </div>  
+  </div>
+</section>
+<section class="product-lines-section">
+  <h2>Product Lines</h2>
+  <h3>The five Pillars of innovation & efficiency</h3>
+  <div class="doughnut-container">
+      <div class="doughnut">
+          <div class="segment" id="segment1"></div>
+          <div class="segment" id="segment2"></div>
+          <div class="segment" id="segment3"></div>
+          <div class="segment" id="segment4"></div>
+          <div class="segment" id="segment5"></div>
+          <div class="center">SenzMatica</div>
+      </div>
+      <div class="popup-section">
+        <div class="popupNew" id="popupNew1">
+          <h4>SenzAGRO</h4>
+          <p>Fleet Management Systems allows to track vehicle expenses, create maintenance programs and service schedules, monitor fuel use, track vehicle values...</p>
+      </div>
+      <div class="popupNew" id="popupNew2">
+          <h4>MOSURANCE</h4>
+          <p>Fleet Management Systems allows to track vehicle expenses, create maintenance programs and service schedules, monitor fuel use, track vehicle values...</p>
+      </div>
+      <div class="popupNew" id="popupNew3">
+          <h4>POLAR</h4>
+          <p>Fleet Management Systems allows to track vehicle expenses, create maintenance programs and service schedules, monitor fuel use, track vehicle values...</p>
+      </div>
+      <div class="popupNew" id="popupNew4">
+          <h4>Factoryspy</h4>
+          <p>Fleet Management Systems allows to track vehicle expenses, create maintenance programs and service schedules, monitor fuel use, track vehicle values...</p>
+      </div>
+      <div class="popupNew" id="popupNew5">
+          <h4>SOLAR TRACK</h4>
+          <p>Fleet Management Systems allows to track vehicle expenses, create maintenance programs and service schedules, monitor fuel use, track vehicle values...</p>
+      </div>
+      </div>
+      
+  </div>
+</section>
+
+<section class="about-section">
+  <h1>About Senzmate</h1>
+  <h2>Deeply rooted in our DNA</h2>
+  <div class="pillars">
+      <div class="pillar">
+          <div class="icon">🌟</div>
+          <h3>Innovation</h3>
+          <p>We've supplied our customers with efficient and effective solutions.</p>
+      </div>
+      <div class="pillar">
+          <div class="icon">🌟</div>
+          <h3>Leadership</h3>
+          <p>We've supplied our customers with efficient and effective solutions.</p>
+      </div>
+      <div class="pillar">
+          <div class="icon">🌟</div>
+          <h3>Excellence</h3>
+          <p>We've supplied our customers with efficient and effective solutions.</p>
+      </div>
+      <div class="pillar">
+          <div class="icon">🌟</div>
+          <h3>Integrity</h3>
+          <p>We've supplied our customers with efficient and effective solutions.</p>
+      </div>
+  </div>
+  <div class="count-section">
+      <div class="left-section">
+          <div class="description">
+            <h3>An end-to-end full stack AIoT Solutions provider</h3>
+            <p>We are a team of people who have a deep passion to play around and innovate AIoT based solutions.</p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+              <h4>100+</h4>
+              <p>PROJECTS</p>
+          </div>
+          <div class="stat">
+              <h4>114+</h4>
+              <p>EMPLOYEES</p>
+          </div>
+          <div class="stat">
+              <h4>14+</h4>
+              <p>COUNTRIES</p>
+          </div>
+          <div class="stat">
+              <h4>8+</h4>
+              <p>INDUSTRIES</p>
+          </div>
+      </div>
+      </div>
+      <div class="right-section">
+          <div class="image-container">
+            <img src="./img/team.jpg" alt="Team Photo">
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Review Section -->
+ <!-- <section class="review-Main">
+  <section class="review-section">
+    <h2>Happy Clients</h2>
+    <div class="slider">
+        <div class="slider-container">
+            <div class="slide">
+                <p>Beautiful space with loads of lounges and chairs to hang out on, pool was stunning, service was exceptional, lived up to and surpassed the expectations.</p>
+                <div class="client-info">
+                    <img src="client1.jpg" alt="Client 1">
+                    <div>
+                        <h4>John Deo</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <p>Amazing experience, the ambiance was perfect and the staff were very friendly and helpful. Highly recommend this place.</p>
+                <div class="client-info">
+                    <img src="client2.jpg" alt="Client 2">
+                    <div>
+                        <h4>Jane Smith</h4>
+                        <p>Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <p>One of the best places I've ever stayed. The rooms were clean and well-maintained, and the service was top-notch.</p>
+                <div class="client-info">
+                    <img src="client3.jpg" alt="Client 3">
+                    <div>
+                        <h4>Michael Brown</h4>
+                        <p>Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+  <section class="blog-section">
+    <h3>Articles</h3>
+    <h2>News, Press and Insights</h2>
+    <div class="blog-container">
+        <div class="blog-card">
+            <img src="blog1.jpg" alt="Blog 1">
+            <div class="blog-content">
+                <span>BLOG</span>
+                <h4>Your Cold Stored Commodities Needs Traceability. Here's Why!</h4>
+                <p>The word "logistics" known as the heart of the supply chain and that used be a synonymous term.</p>
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="blog2.jpg" alt="Blog 2">
+            <div class="blog-content">
+                <span>BLOG</span>
+                <h4>Your Cold Stored Commodities Needs Traceability. Here's Why!</h4>
+                <p>The word "logistics" known as the heart of the supply chain and that used be a synonymous term.</p>
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="blog3.jpg" alt="Blog 3">
+            <div class="blog-content">
+                <span>BLOG</span>
+                <h4>Your Cold Stored Commodities Needs Traceability. Here's Why!</h4>
+                <p>The word "logistics" known as the heart of the supply chain and that used be a synonymous term.</p>
+            </div>
+        </div>
+    </div>
+    <button class="explore-btn">Explore Blogs</button>
+</section>
+
+ </section> -->
+ <section class="review-main">
+    <!-- Review Section -->
+    <section class="review-section">
+        <div class="review-card">
+            <h2>Happy Clients</h2>
+            <div class="slider">
+              <div class="slider-container">
+                <!-- Slide 1 -->
+                <div class="slide">
+                  <p>Beautiful space with loads of lounges and chairs to hang out on, pool was stunning, service was exceptional, lived up to and surpassed the expectations.</p>
+                  <div class="client-info">
+                    <img src="./img/client1.png" alt="Client 1">
+                    <div>
+                      <h4>John Deo</h4>
+                      <p>Entrepreneur</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                  <p>Amazing experience, the ambiance was perfect and the staff were very friendly and helpful. Highly recommend this place.</p>
+                  <div class="client-info">
+                    <img src="client2.jpg" alt="Client 2">
+                    <div>
+                      <h4>Jane Smith</h4>
+                      <p>Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                  <p>One of the best places I've ever stayed. The rooms were clean and well-maintained, and the service was top-notch.</p>
+                  <div class="client-info">
+                    <img src="client3.jpg" alt="Client 3">
+                    <div>
+                      <h4>Michael Brown</h4>
+                      <p>Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider Dots -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Blog Section -->
+    <section class="blog-section">
+      <h3>Articles</h3>
+      <h2>News, Press, and Insights</h2>
+      <div class="blog-container">
+        <!-- Blog Card 1 -->
+        <div class="blog-card">
+          <img src="./img/blog1.png" alt="Blog 1">
+          <div class="blog-content">
+            <span>BLOG</span>
+            <h4>Why Traceability Matters in Cold Storage Commodities</h4>
+            <p>Logistics is the heart of the supply chain and crucial for ensuring efficiency and transparency.</p>
+          </div>
+        </div>
+        <!-- Blog Card 2 -->
+        <div class="blog-card">
+          <img src="./img/blog2.jpeg" alt="Blog 2">
+          <div class="blog-content">
+            <span>BLOG</span>
+            <h4>How Technology is Transforming Logistics</h4>
+            <p>Discover how digital solutions are reshaping logistics and improving supply chain management.</p>
+          </div>
+        </div>
+        <!-- Blog Card 3 -->
+        <div class="blog-card">
+          <img src="./img/blog3.jpg" alt="Blog 3">
+          <div class="blog-content">
+            <span>BLOG</span>
+            <h4>Top Trends in Sustainable Logistics</h4>
+            <p>Learn about the latest trends driving sustainability in the logistics industry.</p>
+          </div>
+        </div>
+      </div>
+      <button class="explore-btn">Explore Blogs</button>
+    </section>
+  </section>
+  
+<!-- Footer Section -->
+<footer>
+  <div class="footer-container">
+      <div class="footer-logo"></div>
+      <button class="newsletter-btn">Join our Newsletter</button>
+      <div class="footer-links">
+          <div class="footer-column">
+              <h4>Platform</h4>
+              <ul>
+                  <li><a href="#">SenzMatica Platform</a></li>
+                  <li><a href="#">AIoT Platform</a></li>
+                  <li><a href="#">IoT Kits</a></li>
+                  <li><a href="#">IoT Core</a></li>
+                  <li><a href="#">AI Core</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h4>AIoT LAB</h4>
+              <ul>
+                  <li><a href="#">Solutions</a></li>
+                  <li><a href="#">By Technology</a></li>
+                  <li><a href="#">Edge Devices</a></li>
+                  <li><a href="#">AI and ML Building</a></li>
+                  <li><a href="#">AIoT Platform</a></li>
+              </ul>
+              <h4>Services</h4>
+              <ul>
+                  <li><a href="#">AIoT LAB</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h4>Resources</h4>
+              <ul>
+                  <li><a href="#">Success Stories</a></li>
+                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Technical Blogs</a></li>
+                  <li><a href="#">Webinars</a></li>
+                  <li><a href="#">White Papers</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h4>Products</h4>
+              <ul>
+                  <li><a href="#">Polar</a></li>
+                  <li><a href="#">SenzAgro</a></li>
+                  <li><a href="#">Mosurance</a></li>
+                  <li><a href="#">SolarTrack</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h4>Company</h4>
+              <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">News</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <div class="footer-terms">
+          <a href="#">Cookies</a>
+          <a href="#">Terms & Condition</a>
+      </div>
+      <div class="footer-copyright">
+          © Copyrights 2024 SenzMate Pvt Ltd.
+      </div>
+      <div class="footer-social">
+          <a href="#"><img src="./img/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="./img/linkedin.png" alt="LinkedIn"></a>
+          <a href="#"><img src="./img/instagram.png" alt="Instagram"></a>
+      </div>
+  </div>
+</footer>
+  
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+  <script src="script3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+      let autoplayTimeout = 3000; 
+      const minSpeed = 500; 
+      const speedReduction = 200; 
+    
+      const owl = $('.brand-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: autoplayTimeout,
+        autoplayHoverPause: true, 
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 4
+          },
+          1000: {
+            items: 5
+          }
+        }
+      });
+  
+      owl.on('translated.owl.carousel', function () {
+        autoplayTimeout = Math.max(minSpeed, autoplayTimeout - speedReduction);
+        console.log(`Updated Speed: ${autoplayTimeout}ms`);
+    
+        owl.trigger('stop.owl.autoplay'); 
+        owl.trigger('play.owl.autoplay', [autoplayTimeout]); 
+      });
+  </script>
+
+
+</body>
+</html>
