@@ -12,11 +12,11 @@ This project is a **redesign of the home page** for a given assignment. The prim
 
 ## Live Preview 🌐
 Check out the live version of the project here:  
-[Live Demo](https://your-live-demo-link.com)
+[Live Demo](https://senzmate-dd6f9.web.app/:target="_blank")
 
 ## Figma Design 📐
 View the design prototype here:  
-[Figma Link](https://www.figma.com/proto/wgkPjMFAihwPBEosOQ9YBP/Senzmate-Redesign?node-id=139-583&node-type=canvas&t=A6XtKR51sEzMocSG-1&scaling=scale-down-width&content-scaling=fixed&page-id=137%3A73)
+[Figma Link](https://www.figma.com/proto/wgkPjMFAihwPBEosOQ9YBP/Senzmate-Redesign?node-id=139-583&node-type=canvas&t=A6XtKR51sEzMocSG-1&scaling=scale-down-width&content-scaling=fixed&page-id=137%3A73/:target="_blank")
 
 ## Technologies Used 💻
 ### Development
