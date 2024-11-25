@@ -1,4 +1,5 @@
 # Home Redesign Assignment 🏡✨
+![High Fidelity Wireframe](https://github.com/user-attachments/assets/bbc4ba96-0650-445c-8360-8c16acab2c7f)
 
 ## Overview
 This project is a **redesign of the home page** for a given assignment. The primary goal was to create a **modern, user-friendly, and visually appealing** design using **HTML**, **CSS**, and **JavaScript**. The final result is optimized for a smooth user experience across various devices while featuring modern design trends.
