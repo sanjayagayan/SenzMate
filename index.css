@@ -953,8 +953,13 @@ header .nav-btn:hover {
 
 .popup-section {
   position: absolute;
-  padding: 30px;
+  padding: 20px 50px 0px 0px;
 }
+
+.popup-section img {
+  height: 40px;
+}
+
 
 #popupNew1 {
   position: absolute;
@@ -1070,27 +1075,34 @@ header .nav-btn:hover {
 }
 
 .pillar {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  padding: 10px;
   width: 200px;
   text-align: center;
 }
 
 .pillar .icon {
-  font-size: 2rem;
+  width: auto;
+  height: 60px;
   margin-bottom: 10px;
 }
 
 .pillar h3 {
-  font-size: 1.2rem;
-  color: #0a2e5c;
+  font-size: 22px;
+  color: #002E61;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
 }
 
 .pillar p {
-  font-size: 0.9rem;
-  color: #777;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #002E61;
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal; 
 }
 
 .count-section {
@@ -1099,22 +1111,22 @@ header .nav-btn:hover {
   padding: 20px 150px;
 }
 
-
 .description {
   margin-bottom: 40px;
 }
 
 .description h3 {
-  font-size: 1.5rem;
-  color: #0a2e5c;
-  margin-bottom: 10px;
+  font-size: 26px;
+  color: #2653A2;
+  padding-bottom: 10px;
 }
 
 .description p {
-  font-size: 1rem;
-  color: #555;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #002E61;
+  opacity: 70%;
 }
-
 
 .stats {
   display: flex;
@@ -1126,33 +1138,31 @@ header .nav-btn:hover {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 150px;
   text-align: center;
 }
 
 .stat h4 {
   font-size: 1.5rem;
-  color: #0a2e5c;
+  color: #172C52;
   margin-bottom: 10px;
 }
 
 .stat p {
   font-size: 0.9rem;
-  color: #777;
+  color: #2653A2;
 }
 
 .image-container {
   display: flex;
-  justify-content: center;
   width: 100%;
   height: 100%;
+  background: #F3F7FF;
 }
 
 .image-container img {
   max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
 /* Reviews Section */
