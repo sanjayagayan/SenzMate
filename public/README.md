@@ -16,7 +16,7 @@ Check out the live version of the project here:
 
 ## Figma Design 📐
 View the design prototype here:  
-[Figma Link](https://your-figma-link.com)
+[Figma Link](https://www.figma.com/proto/wgkPjMFAihwPBEosOQ9YBP/Senzmate-Redesign?node-id=139-583&node-type=canvas&t=A6XtKR51sEzMocSG-1&scaling=scale-down-width&content-scaling=fixed&page-id=137%3A73)
 
 ## Technologies Used 💻
 ### Development
